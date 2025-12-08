@@ -1,0 +1,25 @@
+{
+  "name": "snapflowio/system",
+  "description": "A simple and lightweight library for retrieving system information from the host device.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Snapflow\\System\\": "src/System"
+    }
+  },
+  "authors": [
+    {
+      "name": "Bryan Lawless",
+      "email": "thelawlessbryan@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.2",
+    "ext-posix": "*"
+  },
+  "require-dev": {
+    "laravel/pint": "*"
+  }
+}
